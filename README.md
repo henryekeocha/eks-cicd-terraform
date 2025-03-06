@@ -2,8 +2,6 @@
 
 ![alt text](image.png)
 
-## Streamlining EKS Deployment and CI/CD: A Step-by-Step Guide to Automating Application Delivery with Jenkins and Terraform
-
 **GitHub Repository:** [https://github.com/henryekeocha/eks-cicd-terraform](https://github.com/henryekeocha/eks-cicd-terraform)
 
 ## **Introduction**  
