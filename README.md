@@ -15,16 +15,12 @@ This project provides a comprehensive guide to deploying **Amazon EKS clusters**
 - **Kubernetes** – Orchestrating containerized applications  
 - **AWS CLI & Kubectl** – Managing AWS and Kubernetes  
 
----
-
 ## **Features**  
 ✅ **Automated Infrastructure Deployment** – Terraform provisions AWS EKS clusters and related resources.  
 ✅ **CI/CD Pipeline with Jenkins** – Automates building, testing, and deploying applications to EKS.  
 ✅ **Secure & Scalable Deployment** – Uses best practices for security, networking, and autoscaling.  
 ✅ **Modular Codebase** – Well-structured Terraform configurations and Jenkins pipelines.  
 ✅ **End-to-End Workflow** – Covers setup from **scratch to production** in a **repeatable and scalable** way.  
-
----
 
 ## **Project Structure**  
 ```
@@ -43,8 +39,6 @@ eks-cicd-terraform/
 - **`tf-aws-eks/`** – Terraform configurations to create AWS EKS resources.  
 - **`Jenkinsfile`** – Pipeline definition for automated CI/CD.  
 
----
-
 ## **Prerequisites**  
 Ensure you have the following tools installed before proceeding:  
 
@@ -54,8 +48,6 @@ Ensure you have the following tools installed before proceeding:
 ✅ **Docker** - [Install Docker](https://docs.docker.com/get-docker/)  
 ✅ **Kubectl** - [Install Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
 ✅ **Helm (Optional)** - [Install Helm](https://helm.sh/docs/intro/install/)  
-
----
 
 ## **Installation & Setup**  
 
@@ -92,8 +84,6 @@ kubectl get nodes
 - Modify the `Jenkinsfile` as needed.  
 - Push changes to trigger CI/CD.  
 
----
-
 ## **CI/CD Workflow**  
 ### **🔄 Automated Deployment Process:**  
 1. **Code Push** – Developer pushes changes to GitHub.  
@@ -103,8 +93,6 @@ kubectl get nodes
    - Builds a Docker image and pushes it to a registry  
    - Deploys the application to EKS  
 3. **Application is Live on Kubernetes** 🎉  
-
----
 
 ## **Terraform Infrastructure**  
 Terraform is used to provision AWS infrastructure:  
@@ -116,8 +104,6 @@ To destroy resources:
 ```sh
 terraform destroy -auto-approve
 ```
-
----
 
 ## **Usage Guide**  
 
@@ -132,8 +118,6 @@ Increase replicas:
 ```sh
 kubectl scale deployment my-app --replicas=3
 ```
-
----
 
 ## **Troubleshooting**  
 
@@ -152,14 +136,10 @@ kubectl scale deployment my-app --replicas=3
 kubectl logs -f deployment/my-app
 ```
 
----
-
 ## **Contributing**  
 I welcome contributions! To contribute:  
 1. Fork the repo and create a new branch.  
 2. Commit changes and push to your fork.  
 3. Open a **Pull Request** with detailed explanations.  
-
----
 
 🚀 **Now you're ready to deploy production-grade Kubernetes applications with Jenkins and Terraform!**  
